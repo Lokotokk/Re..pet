@@ -1,0 +1,11 @@
+@mixin  displayflex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@mixin buttontext {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}

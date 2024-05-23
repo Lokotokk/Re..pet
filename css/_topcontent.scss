@@ -1,0 +1,50 @@
+@import "mixins";
+@import "vars";
+
+.top__content{
+    @include displayflex;
+    justify-content: center;
+    gap: 162px;
+
+    &__geo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 61px;
+    }
+
+    &__button {
+        position: relative;
+    }
+
+    &__button-size {
+        width: 457px;
+        height: 120px;
+    }
+
+    &__button_name {
+        color: white;
+        @include buttontext;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 39px;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__button_name:hover {
+        background: rgb(0, 179, 255);
+        transition: all 0.3s;
+    }
+
+    &__logo img {
+        width: 500px;
+        height: 531px;
+    }
+
+}
+

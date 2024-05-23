@@ -1,0 +1,65 @@
+<svg width="375.000000" height="109.000000" viewBox="0 0 375 109" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_3_110_dd" x="68.940002" y="15.739990" width="237.120056" height="77.520020" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="2.02" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_3_111_dd" x="87.690002" y="21.189941" width="199.620056" height="66.620117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="2.02" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_3_112_dd" x="91.729980" y="25.229980" width="191.540039" height="58.540039" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="0.673333" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_3_113_dd" x="91.124023" y="26.644043" width="192.751953" height="59.751953" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="2.6"/>
+			<feGaussianBlur stdDeviation="0.666667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.05098 0 0 0 0 0.082353 0 0 0 0.7 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="2.02"/>
+			<feGaussianBlur stdDeviation="0.875333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.4 0 0 0 0 1 0 0 0 1 0"/>
+			<feBlend mode="normal" in2="effect_dropShadow_1" result="effect_dropShadow_2"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_2" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-0.26" dy="0.52"/>
+			<feGaussianBlur stdDeviation="0.0866667"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_3"/>
+		</filter>
+		<filter id="filter_3_114_dd" x="93.349976" y="26.850098" width="188.300049" height="55.299805" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="0.133333" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_3_115_dd" x="93.483337" y="26.983398" width="188.033386" height="55.033203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="0.0888889" result="effect_layerBlur_1"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_3_110_dd)"/>
+	<g filter="url(#filter_3_111_dd)"/>
+	<rect id="Rectangle 3" x="95.049988" y="28.550049" rx="25.950001" width="184.899994" height="51.900002" stroke="#0094FF" stroke-opacity="1.000000" stroke-width="2.600000"/>
+	<g filter="url(#filter_3_112_dd)"/>
+	<rect id="Rectangle 3" x="95.450012" y="28.949951" rx="25.549999" width="184.100006" height="51.099998" stroke="#0094FF" stroke-opacity="1.000000" stroke-width="3.400000"/>
+	<g filter="url(#filter_3_113_dd)"/>
+	<rect id="Rectangle 3" x="95.049988" y="28.550049" rx="25.950001" width="184.899994" height="51.900002" stroke="#00B3FF" stroke-opacity="0.200000" stroke-width="2.600000"/>
+	<g filter="url(#filter_3_114_dd)"/>
+	<rect id="Rectangle 3" x="94.549988" y="28.050049" rx="26.450001" width="185.899994" height="52.900002" stroke="#82D9FF" stroke-opacity="1.000000" stroke-width="1.600000"/>
+	<g filter="url(#filter_3_115_dd)"/>
+	<rect id="Rectangle 3" x="94.150024" y="27.649902" rx="26.850000" width="186.699997" height="53.700001" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="0.800000"/>
+</svg>

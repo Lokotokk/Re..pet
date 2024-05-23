@@ -1,0 +1,48 @@
+@import "mixins";
+@import "vars";
+
+.border {
+    box-sizing: border-box;
+    border-width: 3px solid rgb(0, 179, 255);
+    box-shadow: 0px 2.6px 2px 0px rgba(0, 13, 21, 0.7),0px 2.02px 2.63px 0px rgb(0, 102, 255),inset -0.26px 0.52px 0.26px 0px rgba(255, 255, 255, 0.5);
+}
+
+.rec1 { 
+    box-sizing: border-box;
+    border: 0.8px solid rgb(255, 255, 255);
+    filter: blur(0.27px);
+    position: absolute;
+    top: 0;
+}
+
+.rec2 {
+    box-sizing: border-box;
+    border: 1.6px solid rgb(130, 217, 255);
+    filter: blur(0.4px);
+    position: absolute;
+    top: 0;
+}
+
+.rec3 {
+    box-sizing: border-box;
+    border: 3.4px solid rgb(0, 148, 255);
+    filter: blur(2.02px);
+    position: absolute;
+    top: 0;
+}
+
+.rec4 {
+    box-sizing: border-box;
+    border: 2.6px solid rgb(0, 148, 255);
+    filter: blur(6.06px);
+    position: absolute;
+    top: 0;
+}
+
+.br {
+    border-radius: 100px;
+}
+
+.br2 {
+    border-radius: 50px;
+}

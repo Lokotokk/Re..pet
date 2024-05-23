@@ -1,0 +1,33 @@
+@import "vars";
+@import "mixins";
+
+.footer{
+    background: linear-gradient(4.16deg, rgba(12, 8, 44, 0.25) 66.534%,rgba(0, 102, 255, 0) 108.883%,rgba(131, 143, 162, 0.25) 109.557%);
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+    &__text {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px; 
+    }
+
+    &__forquestions, &__link > a {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    &__link > a{
+        text-decoration: none;
+    }
+
+    &__link > a:hover {
+        color: $hovercolor;
+        transition: all 0.3s;
+    }
+}

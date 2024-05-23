@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Re_Pets Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src='jquery-3.5.1.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container-box">
+        <header class="header__main center">
+            <a href="index.html" class="header__link mobile">ГЛАВНАЯ</a>
+            <a href="#slaider" class="header__link mobile">ПИТОМЦЫ</a>
+            <a href="#news" class="header__link mobile">НОВОСТИ</a>     
+            <div class="header__button header__button-size mobile">
+                <div class="rec1 br header__button-size"></div>
+                <div class="rec2 br header__button-size"></div>
+                <div class="rec3 br header__button-size"></div>
+                <div class="rec4 br header__button-size"></div>
+                <a class="header__button-name header__button-size border" href="autorization_form.html">Войти</a>
+            </div>
+            <div class="burgermenu">
+                <input type="checkbox" id="burger">
+                <label for="burger">
+                    <svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2H21" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M2 9H21" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M2 16H21" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                    </svg>                            
+                </label>
+                <nav class="nav burgeg_nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-li"><a class="nav__list-link" href="index.html">Главная</a></li>
+                        <li class="nav__list-li"><a class="nav__list-link" href="#slaider">Питомцы</a></li>
+                        <li class="nav__list-li"><a class="nav__list-link" href="#news">Новости</a></li>
+                        <li class="nav__list-li"><a class="nav__list-link" href="autorization_form.html">Вход</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="top__content center">
+            <div class="top__content__logo">
+                <img src="images/Логотип.png" alt="logo" id="logo" height="600">
+            </div>
+            <div class="top__content__geo">
+                <div class="top__content__button top__content__button-size">
+                    <div class="rec1 br2 top__content__button-size"></div>
+                    <div class="rec2 br2 top__content__button-size"></div>
+                    <div class="rec3 br2 top__content__button-size"></div>
+                    <div class="rec4 br2 top__content__button-size"></div>
+                    <button class="top__content__button_name top__content__button-size border br2">
+                        <svg class="arrow" width="35.293823" height="19.238770" viewBox="0 0 35.2938 19.2388" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                    Created with Pixso.
+                            </desc>
+                            <defs>
+                                <filter id="filter_7_79_dd" x="0.000000" y="0.000000" width="35.293823" height="19.238770" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feGaussianBlur in="BackgroundImage" stdDeviation="1.91258"/>
+                                    <feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset dx="-2.86887" dy="2.86887"/>
+                                    <feGaussianBlur stdDeviation="0.95629"/>
+                                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"/>
+                                    <feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset dx="2.86887" dy="-2.86887"/>
+                                    <feGaussianBlur stdDeviation="0.95629"/>
+                                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                                    <feBlend mode="normal" in2="effect_innerShadow_2" result="effect_innerShadow_3"/>
+                                </filter>
+                            </defs>
+                            <g filter="url(#filter_7_79_dd)"/>
+                            <path id="Line 1" d="M1.68799 1.91602L16.9828 15.916L33.688 1.91602" stroke="#1F046C" stroke-opacity="0.500000" stroke-width="5.000000"/>
+                        </svg>
+                        Россия
+                    </button>  
+                </div>
+                <div class="top__content__button">
+                    <div class="rec1 br2 top__content__button-size"></div>
+                    <div class="rec2 br2 top__content__button-size"></div>
+                    <div class="rec3 br2 top__content__button-size"></div>
+                    <div class="rec4 br2 top__content__button-size"></div>
+                    <button class="top__content__button_name top__content__button-size border br2">
+                        <svg class="arrow" width="35.293823" height="19.238770" viewBox="0 0 35.2938 19.2388" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                    Created with Pixso.
+                            </desc>
+                            <defs>
+                                <filter id="filter_7_79_dd" x="0.000000" y="0.000000" width="35.293823" height="19.238770" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feGaussianBlur in="BackgroundImage" stdDeviation="1.91258"/>
+                                    <feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset dx="-2.86887" dy="2.86887"/>
+                                    <feGaussianBlur stdDeviation="0.95629"/>
+                                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.1 0"/>
+                                    <feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset dx="2.86887" dy="-2.86887"/>
+                                    <feGaussianBlur stdDeviation="0.95629"/>
+                                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                                    <feBlend mode="normal" in2="effect_innerShadow_2" result="effect_innerShadow_3"/>
+                                </filter>
+                            </defs>
+                            <g filter="url(#filter_7_79_dd)"/>
+                            <path id="Line 1" d="M1.68799 1.91602L16.9828 15.916L33.688 1.91602" stroke="#1F046C" stroke-opacity="0.500000" stroke-width="5.000000"/>
+                        </svg>
+                        Москва
+                    </button>  
+                </div>
+            </div>
+        </div>
+        <div class="text center">
+            <p>Здесь вы можете узнать о регистрации питомца<span class="mobile_text">: 
+                введите данные в формах ниже или зарегистрируйтесь, чтобы мы
+                напомнили о дате регистрации и выслали инструкцию Вам на
+                электронную почту.</span>
+            </p>
+        </div>
+        <div class="center" id="slaider">
+            <div id="carouselExampleControls" class="carousel slide slaider">
+                <div class="carousel-inner slaider__form-box">
+                    <div class="carousel-item active">
+                        <div class="slaider__content">
+                            <div class="slaider__cat">
+                                <div>
+                                    <p class="slaider__cat__text">КОТ</p>
+                                </div>
+                                <div>
+                                    <img src="images/cat.png" class="d-block w-100 slaider__cat-img" alt="cat">
+                                </div>
+                            </div>
+                            <form action="ajax_form_cat.php" class="slaider__form" method="POST" id="cat-form">
+                                <div class="slaider__input-box">
+                                    <input class="slaider__input border slaider__input-size" type="text" name="birth" placeholder="Дата рождения" onfocus="(this.type='date')"  onblur="(this.type='text')" class="cat-form-input">
+                                    <div class="rec1 slaider__input-size"></div>
+                                    <div class="rec2 slaider__input-size"></div>
+                                    <div class="rec3 slaider__input-size"></div>
+                                    <div class="rec4 slaider__input-size"></div>
+                                </div>
+                                <div class="slaider__input-box">
+                                    <input class="slaider__input border slaider__input-size" type="text" name="get" placeholder="Дата приобретения" onfocus="(this.type='date')"  onblur="(this.type='text')" class="cat-form-input">
+                                    <div class="rec1 slaider__input-size"></div>
+                                    <div class="rec2 slaider__input-size"></div>
+                                    <div class="rec3 slaider__input-size"></div>
+                                    <div class="rec4 slaider__input-size"></div>
+                                </div>
+                                <p class="slaider__form-text" id="info">
+                                    Введите даты рождения и приобретения Вашего питомца.
+                                    <button class="autorization__button" type="submit">Узнать</button>
+                                </p>
+                            </form>
+                        </div>       
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slaider__content">
+                            <div class="slaider__cat">
+                                <div>
+                                    <p class="slaider__cat__text">СОБАКА</p>
+                                </div>
+                                <div>
+                                    <img src="images/dog.png" class="d-block w-100 slaider__cat-img" alt="cat">
+                                </div>
+                            </div>
+                            <form action="ajax_form_dog.php" class="slaider__form" method="POST" id="dog-form">
+                                <div class="slaider__input-box">
+                                    <input class="slaider__input border slaider__input-size" type="text" name="birth" placeholder="Дата рождения" onfocus="(this.type='date')"  onblur="(this.type='text')" class="cat-form-input">
+                                    <div class="rec1 slaider__input-size"></div>
+                                    <div class="rec2 slaider__input-size"></div>
+                                    <div class="rec3 slaider__input-size"></div>
+                                    <div class="rec4 slaider__input-size"></div>
+                                </div>
+                                <div class="slaider__input-box">
+                                    <input class="slaider__input border slaider__input-size" type="text" name="get" placeholder="Дата приобретения" onfocus="(this.type='date')"  onblur="(this.type='text')" class="cat-form-input">
+                                    <div class="rec1 slaider__input-size"></div>
+                                    <div class="rec2 slaider__input-size"></div>
+                                    <div class="rec3 slaider__input-size"></div>
+                                    <div class="rec4 slaider__input-size"></div>
+                                </div>
+                                <p class="slaider__form-text" id="info_dog">
+                                    Введите даты рождения и приобретения Вашего питомца.
+                                    <button class="autorization__button" type="submit">Узнать</button>
+                                </p>
+                            </form>
+                        </div>       
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slaider__content">
+                            <div class="slaider__cat">
+                                <div>
+                                    <p class="slaider__cat__text">ДРУГОЙ</p>
+                                </div>
+                                <div>
+                                    <img src="images/other.png" class="d-block w-100 slaider__cat-img" alt="cat">
+                                </div>
+                            </div>
+                            <form action="ajax_form_other.php" class="slaider__form" method="POST" id="other-form">
+                                <div class="slaider__input-box">
+                                    <input class="slaider__input border slaider__input-size" type="text" name="birth" placeholder="Дата рождения" onfocus="(this.type='date')"  onblur="(this.type='text')" class="cat-form-input">
+                                    <div class="rec1 slaider__input-size"></div>
+                                    <div class="rec2 slaider__input-size"></div>
+                                    <div class="rec3 slaider__input-size"></div>
+                                    <div class="rec4 slaider__input-size"></div>
+                                </div>
+                                <div class="slaider__input-box">
+                                    <input class="slaider__input border slaider__input-size" type="text" name="get" placeholder="Дата приобретения" onfocus="(this.type='date')"  onblur="(this.type='text')" class="cat-form-input">
+                                    <div class="rec1 slaider__input-size"></div>
+                                    <div class="rec2 slaider__input-size"></div>
+                                    <div class="rec3 slaider__input-size"></div>
+                                    <div class="rec4 slaider__input-size"></div>
+                                </div>
+                                <p class="slaider__form-text" id="info_other">
+                                    Введите даты рождения и приобретения Вашего питомца.
+                                    <button class="autorization__button" type="submit">Узнать</button>
+                                </p>
+                            </form>
+                        </div>       
+                    </div>
+                </div>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                        <svg class="carousel-control-next-icon slaider__click_next" width="127.022949" height="349.585449" viewBox="0 0 127.023 349.585" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs/>
+                            <path id="Line4" d="M0.40625 0.291626L126.406 175.822L0.40625 349.292" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.000000"/>
+                        </svg>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div> 
+        <div class="center" id="info"></div>   
+        <section class="news center" id="news">
+            <div class="news__header">
+                Последние новости
+            </div>
+            <div class="news__content">
+                <a href="#">TEXT</a><br>
+                <p class="news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium tenetur necessitatibus ipsum temporibus voluptas dignissimos, voluptatum, in architecto eius unde numquam esse quidem aperiam eveniet iusto dolore, doloremque tempora? Distinctio quibusdam eos, facere doloremque mollitia error architecto officia, inventore dolore aut dignissimos aperiam voluptas cupiditate aliquam culpa voluptatem ipsam.
+                </p>
+            </div>
+            <div class="news__content">
+                <a href="#">TEXT</a><br>
+                <p class="news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium tenetur necessitatibus ipsum temporibus voluptas dignissimos, voluptatum, in architecto eius unde numquam esse quidem aperiam eveniet iusto dolore, doloremque tempora? Distinctio quibusdam eos, facere doloremque mollitia error architecto officia, inventore dolore aut dignissimos aperiam voluptas cupiditate aliquam culpa voluptatem ipsam.
+                </p>
+            </div>
+            <div class="news__content">
+                <a href="#">TEXT</a><br>
+                <p class="news__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium tenetur necessitatibus ipsum temporibus voluptas dignissimos, voluptatum, in architecto eius unde numquam esse quidem aperiam eveniet iusto dolore, doloremque tempora? Distinctio quibusdam eos, facere doloremque mollitia error architecto officia, inventore dolore aut dignissimos aperiam voluptas cupiditate aliquam culpa voluptatem ipsam.
+                </p>
+            </div>
+        </section>
+        <footer class="footer center">
+            <div class="footer__text">
+                <p class="footer__forquestions">
+                    2023 Для вопросов и предложений - support@&&&&
+                </p>
+                <div class="footer__link">
+                    <a href="#">Обработка персональных данных</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="ajax.js"></script>
+    <script src="geo.js"></script>
+</body>
+</html>

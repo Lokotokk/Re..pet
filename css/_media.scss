@@ -1,0 +1,504 @@
+@import "mixins";
+@import "vars";
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - $widthContentTablet / 2);
+        padding-right: calc(50% - $widthContentTablet / 2);
+    }
+
+    .header {
+        margin-bottom: 194px;
+
+        &__main {
+            gap: 46px;
+        }
+
+        &__right svg{
+            width: 138px;
+            height: 61px;
+        }
+
+        &__left {
+            gap: 46px;
+        }
+
+        &__tablet {
+            margin-bottom: 96px;
+        }
+
+    }
+
+    .top__content {
+        gap: 80px;
+
+        &__logo img {
+            width: 358px;
+            height: 389px;
+        }
+
+        &__button-size {
+            width: 250px;
+            height: 54px;
+        }
+
+        &__button_name {
+            font-size: 15px;
+            line-height: 20px;
+            gap: 27px;
+        }
+    }
+
+    .arrow {
+        width: 18px;
+        height: 6px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .text p {
+        width: 479px;
+        margin-bottom: 40px;
+        margin-top: 59px;
+    }
+
+    .slaider {
+        max-width: 724px;
+        height: 333px;
+        padding: 69px 248px 42px 80px;
+
+        &__form-box {
+            width: 437px;
+            height: 222px;
+        }
+
+        &__content {
+            width: 236px;
+            height: 222px;
+            padding-top: 60px;
+            padding-right: 14px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            box-sizing: border-box;
+            border-radius: 30px;
+        }
+
+        &__cat {
+            gap: 30px;
+            padding-top: 27px;
+            padding-bottom: 30px;
+            width: 206px;
+            height: 188px;
+            left: 230px;
+            border-radius: 30px;
+            background: url(../images/Rectangle11.png);
+    
+            &__text {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: left; 
+            }
+        }
+
+        &__cat-img {
+            width: 116px;
+            height: 118px;
+        }
+
+        &__cat >div >p {
+            margin-left: 19px;
+        }
+
+        &__form {
+            gap: 14px;
+            padding-right: 37px;
+        }
+
+        &__input::placeholder {
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 14px;
+        }
+
+        &__input-size {
+            width: 202px;
+            height: 38px;
+        }
+
+        &__form-text {
+            width: 154px;
+            font-size: 9px;
+            line-height: 14px;
+        } 
+
+        &__click_next {
+            width: 75px;
+            height: 165px;
+        }
+
+    }
+
+    .news {
+        margin-top: 103px;
+        margin-bottom: 110px;
+        gap: 43px;
+
+        &__header {
+            margin-bottom: 66px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        &__content {
+            font-size: 10px;
+            line-height: 14px;
+        }
+    }
+
+    .autorization {
+        &__box {
+            width: 724px;
+            gap: 33px;
+        }
+
+        .autorization__form {
+            padding-right: 35px;
+        }
+
+        &__inputs {
+            gap: 60px;
+        }
+
+        &__input {
+            width: 345px;
+            padding-top: 11px;
+            padding-bottom: 11px;
+            padding-left: 11px;
+        }
+
+        &__button {
+            width: 117px;
+            font-size: 10px;
+            line-height: 10px;
+            margin-top: 5px;
+            height: 17px;
+    }
+        &__head {
+            font-size: 15px;
+        }
+    }
+
+
+    .input__box {
+        width: 345px;
+    }
+
+    .rectangle1 {
+        width: 345px;
+    }
+    
+    .rectangle {
+        width: 345px;
+    }
+
+    .footer {
+        &__forquestions, &__link > a {
+            font-size: 10px;
+            line-height: 14px;
+        }
+    }
+
+    .autorization__inputs_reg{
+        gap: 23px;
+    } 
+
+    .autorization__button_reg {
+        width: 174px;
+        height: 32px;
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .burgermenu {
+        display: block;
+    }
+
+    .top__content {
+        gap: 50px;
+        flex-direction: column;
+
+        &__logo img {
+            width: 180px;
+            height: 180px;
+        }
+
+        &__button-size {
+            width: 129px;
+            height: 23px;
+        }
+
+        &__geo {
+            gap: 20px;
+        }
+
+        &__button_name {
+            font-size: 10px;
+            gap: 5px;
+        }
+
+        &__button_name svg {
+            width: 9px;
+            height: 3px;
+        }
+    }
+
+    .header {
+        &__main {
+            margin-bottom: -40px;
+        }
+
+        &__right svg {
+            width: 150px;
+            height: 60px;
+        }
+    
+        &_auth_mobile {
+            padding-top: 0; 
+            padding-bottom: 13px;
+        }
+    }
+
+    .mobile_text {
+        display: none;
+    }
+
+    .text p {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 130px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slaider {
+        border-radius: 30px;
+        max-width: 310px;
+        height: 175px;
+        padding: 20px 20px 20px 20px;
+
+        &__content {
+            width: 101px;
+            height: 117px;
+            padding-top: 20px;
+            border-radius: 30px;
+        }
+    
+        &__cat {
+            width: 88px; 
+            height: 99px;
+            border-radius: 30px;
+            gap: 2px;
+        }
+    
+        &__input-size {
+            width: 86px;
+            height: 20px;
+        }
+    
+        &__input {
+            font-size: 6px;
+        }
+        
+        &__form-box {
+            width: 310px;
+        }
+
+        &__form-text {
+            color: rgb(255, 255, 255);
+            width: 50px;
+            font-size: 13px;
+        }
+    
+        &__form {
+            gap: 10px;
+            padding-right: 0;
+        }
+    
+        &__form-text {
+            width: 54px;
+            font-size: 3px;
+        }
+
+        &__cat__text {
+            font-size: 8px;
+        }
+    
+        &__cat-img {
+            width: 34px;
+            height: 33px;
+        }
+    }
+
+    
+    .autorization {
+        margin-bottom: 46px;
+        
+        &__inputs {
+            gap: 50px;
+        }
+    
+        &__registration {
+            gap: 16px;
+            margin-top: 0;
+        }
+    
+        &__p {
+            font-size: 10px;
+        }
+    
+        &__border-size {
+            width: 149px;
+            height: 32px;
+        }
+    
+        &__reg {
+            font-size: 10px;
+        }
+    
+        &__inputs_reg {
+            gap: 10px;
+        }
+
+        &__head {
+            font-size: 13px;
+            margin-bottom: 21px;
+        }
+    
+        &__input {
+            width: 125px;
+            font-size: 10px;
+        }
+
+        &__box {
+            gap: 0;
+            flex-direction: column;
+            height: 311px;
+        }
+    
+        &__form {
+            padding-right: 0;
+            padding-left: 0; 
+            border-right: none; 
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 55px;
+        }
+    
+        &__checkbox {
+            font-size: 10px;
+        }
+    
+        &__checkbox-check + label:before {
+            content: "";
+            width: 14px;
+            height: 14px;
+        }
+
+        &__box_reg {
+            height: 607px;
+        }
+    
+        &__reg-text {
+            margin-top: 38px;
+            width: 222px;
+        }
+    
+    }
+    
+    .news {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 2px;
+
+        &__header {
+            font-size: 10px;
+            margin-bottom: 20px;
+        }
+    
+        &__content {
+            font-size: 7px;
+            line-height: 11px;
+        }
+
+        &__header {
+            font-size: 10px;
+        }
+    }
+
+    .footer {           
+        &_reg_mobile {
+            margin-top: 106px;
+        }
+            
+        &__forquestions, &__link > a {
+            font-size: 6px;
+            margin-bottom: 0;
+        }
+    
+        &__text {
+            gap: 0;
+        }
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle {
+        width: 125px;
+    }
+
+    .rectangle1 {
+        width: 125px;
+    }
+
+   
+    .input__box {
+        width: 125px;
+    }
+
+    .mobile_auth_btn {
+        width: 98px;
+        height: 27px;
+        font-size: 8px;
+    }
+
+    .reg {
+        width: 222px;
+        height: 52px;
+    }
+
+    .mobile_reg_btn {
+        width: 195px;
+        height: 35px;
+        font-size: 13px;
+    }
+}

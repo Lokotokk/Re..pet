@@ -1,0 +1,130 @@
+@import "vars";
+@import "mixins";
+
+.slaider {
+    background: linear-gradient(180deg, rgba(4, 16, 80, 0.38) 0%, rgba(79, 109, 195, 0.11) 100%);
+    border-radius: 50px;
+    max-width: 1351px;
+    height: 705px;
+    padding: 178px 577px 114px 91px;
+
+    &__form-box {
+        width: 710px;
+    }
+
+    &__content {
+        float: left;
+        width: 383px;
+        height: 413px;
+        padding-top: 96px;
+        background: url(../images/bgSlaiderForm_tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+
+    &__cat {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 80px;
+        padding-top: 39px;
+        padding-bottom: 49px;
+        width: 343px;
+        height: 384px;
+        border-radius: 50px;
+        background: url(../images/Group.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        bottom: 0px;
+        left: 86%;
+
+        &__text {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 27px;
+            text-align: left;
+        }
+    }
+
+    &__cat >div >p {
+        margin-bottom: 0;
+    }
+
+    &__form {
+        @include displayflex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 43px;
+        padding-right: 37px;
+    }
+
+    &__input-box {
+        @include displayflex;
+        justify-content: center;
+        position: relative;
+    }
+
+    &__input {
+        background: transparent;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        color: rgb(255, 255, 255);
+    }
+
+    &__input::placeholder {
+        color: rgb(255, 255, 255);
+    }
+
+    &__input-size {
+        width: 304px;
+        height: 71px;
+    }
+
+    &__form-text {
+        color: rgb(255, 255, 255);
+        width: 247px;
+        font-size: 13px;
+    } 
+
+    &__click_next {
+        background-image: url(../images/arrow.svg);
+        width: 126px;
+        height: 349px;
+      }
+
+    &__click_next:hover {
+        fill: $hovercolor;
+    }   
+}
+
+#info {
+    color: white;
+}
+
+#slaider {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
